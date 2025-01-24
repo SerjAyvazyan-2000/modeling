@@ -1131,6 +1131,13 @@
         right: 0;
         top: -35px;
     }
+
+    .possibilities-item-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
     .faq-title-clue {
         right: 0;
     }
@@ -1290,6 +1297,10 @@
 @media (max-width: 576px) {
     .hero-line {
         display: none;
+    }
+    .works-bottom-column{
+        gap: 4px;
+        margin-top: 4px;
     }
 
     .modeling-section {
