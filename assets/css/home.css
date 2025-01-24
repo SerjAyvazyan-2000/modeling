@@ -486,6 +486,7 @@
 
 .how-works-clue {
     background: var(--tertiary2);
+    right: -50px;
 }
 
 .how-works-column {
@@ -714,7 +715,7 @@
 .reviews-title-clue {
     left: 50%;
     transform: rotate(9deg) translateX(-50%);
-    top: -15px;
+    top: -17px;
 
 }
 
@@ -1126,7 +1127,10 @@
     .advantages-slider {
         display: block;
     }
-
+    .how-works-clue {
+        right: 0;
+        top: -35px;
+    }
     .faq-title-clue {
         right: 0;
     }
